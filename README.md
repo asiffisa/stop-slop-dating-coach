@@ -3,7 +3,7 @@
 Your chill friend for dating advice. No games, no manipulation—just real talk.
 
 <div align="center" style="margin-left:50px; margin-right:50px;">
-  <img src="dating%20coach%20card.webp" alt="Dating Coach Card" style="max-height: 50px; height: auto; width: auto;">
+  <img src="dating%20coach%20card.webp" alt="Dating Coach Card" style="max-height: 50px; width: auto;">
 </div>
 
 ## What this is
