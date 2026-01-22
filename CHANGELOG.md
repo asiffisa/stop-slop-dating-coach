@@ -1,24 +1,27 @@
 # Changelog
 
-## 2026-01-13
+## 2026-01-22
 
 ### Added
+- **No Matches Support** — Added feature to help users when they're frustrated about lack of matches. Coach normalises the experience, offers encouragement, and suggests actionable profile improvements.
+- **Enhanced Dating Coach examples** — Expanded examples in `Dating agent prompt/examples.md` to include user frustration scenarios and "no matches" support interactions.
 
-**Phrases (Dating agent prompt/phrases.md)**
-- Throat-clearing: "Here's what I find interesting", "Here's the problem though"
-- Performative emphasis: "creeps in", "I promise", "They exist, I promise"
-- Telling instead of showing: "This is genuinely hard", "This is what leadership actually looks like"
+### Changed
+- **File structure refactoring** — Renamed `references/` folder to `Dating agent prompt/` for better clarity and consistency.
+- **Updated all file references** — Updated paths in README.md, SKILL.md, and CHANGELOG.md to reflect new folder name.
+- **Image styling** — Adjusted dating coach card image size (max-height: 50px, max-width: 200px) and alignment for better visual presentation.
+- **Author section** — Updated README.md with author information and fork attribution.
 
-**Structures (Dating agent prompt/structures.md)**
-- Binary contrasts: "Not X. But Y.", "It's not this. It's that.", "stops being X and starts being Y"
-- Rhythm patterns: staccato fragmentation, dashes for dramatic pause, hedging as reassurance
-- Word patterns: absolute words (always, never, everyone, etc.), AI-overused intensifiers (deeply, truly, fundamentally, inherently, simply, literally, inevitably)
+### Removed
+- **Outdated reference materials** — Cleaned up old examples and reference files to streamline content.
 
-## 2026-01-12
+## 2026-01-22 (Earlier)
 
-- Restructured skill following Claude Code best practices (PR #1)
-- Split into SKILL.md and Dating agent prompt/ folder
-
-## 2025-01-12
-
-- Initial release
+### Changed
+- **Pivoted to Dating Coach theme** — Complete transformation from generic "Stop Slop" to Gen Z Indian Dating Coach:
+  - Rewrote `examples.md` with dating communication scenarios (texting, breakups, boundaries, family pressure, intimacy conversations)
+  - Rewrote `phrases.md` with dating-specific problematic phrases (pick-up lines, toxic positivity, passive-aggressive communication, guilt-tripping)
+  - Rewrote `structures.md` with relationship patterns (anxious-avoidant traps, performative romance, toxic communication cycles, digital traps)
+  - All content now focuses on emotional intelligence, healthy boundaries, attachment security, and culturally relevant examples including Hindi/Hinglish phrases for Indian Gen Z context
+- **Enhanced dating communication resources** — Expanded content for Gen Z India users navigating modern dating while respecting cultural context.
+- **Revised documentation** — Updated README.md and SKILL.md for clarity and user engagement with Dating Coach skill.
