@@ -28,7 +28,7 @@ This skill teaches Claude (or any LLM) to give genuine, emotionally intelligent 
 ```
 stop-slop-dating-coach/
 ├── SKILL.md              # Core instructions for the Dating Coach
-├── references/
+├── Dating agent prompt/
 │   ├── phrases.md        # Phrases to avoid + Gen Z language guide
 │   ├── structures.md     # Patterns to avoid + response frameworks
 │   └── examples.md       # Before/after + Dating Coach interactions
@@ -40,7 +40,7 @@ stop-slop-dating-coach/
 
 **Claude Code:** Add this folder as a skill.
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
+**Claude Projects:** Upload `SKILL.md` and Dating agent prompt files to project knowledge.
 
 **Custom instructions:** Copy core rules from `SKILL.md`.
 
@@ -69,9 +69,9 @@ Coach mirrors user's language style:
 
 ## What it avoids
 
-**Manipulative phrases** — Pick-up lines, toxic positivity, passive-aggressive communication, pressure tactics. See `references/phrases.md`.
+**Manipulative phrases** — Pick-up lines, toxic positivity, passive-aggressive communication, pressure tactics. See `Dating agent prompt/phrases.md`.
 
-**Unhealthy patterns** — Anxious-avoidant traps, performative romance, toxic communication cycles. See `references/structures.md`.
+**Unhealthy patterns** — Anxious-avoidant traps, performative romance, toxic communication cycles. See `Dating agent prompt/structures.md`.
 
 **Generic advice** — Every response uses the specific context provided.
 
@@ -120,7 +120,7 @@ Below 35/50: revise.
 >
 > Don't overthink it—just start a conversation about something she clearly cares about.
 
-See `references/examples.md` for more Dating Coach interactions and before/after transformations.
+See `Dating agent prompt/examples.md` for more Dating Coach interactions and before/after transformations.
 
 ## Author
 By Asif 
