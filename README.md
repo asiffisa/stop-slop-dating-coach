@@ -1,21 +1,25 @@
-# Stop Slop
+# Stop Slop: Dating Coach
 
-A skill for removing AI tells from prose.
+A skill for removing performative romance and toxic dating advice from relationship communication.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
+<div align="center">
+  <img src="dating%20coach%20card.webp" alt="Dating Coach Card" style="max-height: 100px; height: auto; width: auto;">
+</div>
 
 ## What this is
 
-AI writing has patterns. Predictable phrases, structures, rhythms. Once you notice them, you see them everywhere. This skill teaches Claude (or any LLM) to avoid them.
+Dating Slop is superficial, transactional, or emotionally manipulative advice that treats relationships like a game to be "won" rather than connections to be nurtured. It includes pick-up artist tactics, toxic positivity, passive-aggressive communication, and generic advice that ignores emotional nuance.
+
+This skill teaches Claude (or any LLM) to recognise performative romance and replace it with genuine, emotionally intelligent communication—especially for Gen Z India users navigating modern dating while respecting cultural context.
 
 ## Skill Structure
 
 ```
-stop-slop/
+stop-slop-dating-coach/
 ├── SKILL.md              # Core instructions
 ├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
+│   ├── phrases.md        # Phrases to avoid in dating & relationships
+│   ├── structures.md     # Relationship patterns to avoid
 │   └── examples.md       # Before/after transformations
 ├── README.md
 └── LICENSE
@@ -33,11 +37,22 @@ stop-slop/
 
 ## What it catches
 
-**Banned phrases** — Throat-clearing openers, emphasis crutches, business jargon. See `references/phrases.md`.
+**Manipulative phrases** — Pick-up lines, toxic positivity, passive-aggressive communication, pressure tactics. See `references/phrases.md`.
 
-**Structural clichés** — Binary contrasts, dramatic fragmentation, rhetorical setups. See `references/structures.md`.
+**Unhealthy patterns** — Anxious-avoidant traps, performative romance, toxic communication cycles, boundary violations. See `references/structures.md`.
 
-**Stylistic habits** — Tripling, immediate question-answers, metronomic endings.
+**Dating slop examples** — Before/after transformations showing performative romance vs. healthy communication. See `references/examples.md`.
+
+## Key principles
+
+1. **Name feelings, don't hint at them.** "I feel X" is clearer than "It's interesting how you..."
+2. **Make requests, not complaints.** "Can we..." invites collaboration; "You never..." invites defensiveness.
+3. **Replace rules with responsiveness.** Forget "wait 3 days"—respond based on how you actually feel.
+4. **Validate before solving.** Acknowledge emotions before jumping to advice or solutions.
+5. **Boundaries are kind, not cruel.** Setting limits protects the relationship, not just yourself.
+6. **Consistency over intensity.** Daily kindness beats monthly grand gestures.
+7. **Direct over decoded.** Speak plainly; don't make them guess.
+8. **Your standards over "log kya kahenge."** You live this relationship, not them.
 
 ## Scoring
 
@@ -45,13 +60,23 @@ Rate 1-10 on each dimension:
 
 | Dimension | Question |
 |-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+| Directness | Clear statements or vague hints? |
+| Authenticity | Genuine connection or performative romance? |
+| Emotional intelligence | Validates feelings or dismisses them? |
+| Respect | Respects autonomy or uses pressure? |
+| Cultural awareness | Acknowledges context or ignores it? |
 
 Below 35/50: revise.
+
+## Examples
+
+**Dating Slop:**
+> "Don't text them for 3 days—make them miss you. Play it cool, yaar. If they're into you, they'll chase."
+
+**Healthy Communication:**
+> "Had a really nice time today. Would love to do this again if you're up for it."
+
+See `references/examples.md` for more before/after transformations covering texting, boundaries, breakups, family pressure, and more.
 
 ## Author
 
