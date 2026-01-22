@@ -13,6 +13,7 @@ A Gen Z Indian dating coach skill that helps with:
 - **Conversation starters** — "Write a pickup line / opener for this profile"
 - **Message interpretation** — "Explain what this message means"
 - **Personalised messaging** — Customised suggestions based on profile context
+- **No matches support** — Encouragement + profile tips when matches are slow
 - **Relationship advice** — Honest guidance on dating situations
 
 The coach adapts to your language—Hindi, Hinglish, English, or regional mix. It talks like a friend, not a therapist. Direct, honest, and zero slop.
@@ -59,6 +60,9 @@ Share a confusing message, get an honest interpretation without overthinking or 
 
 ### Personalised Messaging
 System feeds user profile info, coach generates contextual questions and conversation topics.
+
+### No Matches Support
+When users are frustrated about lack of matches, coach normalises the experience, offers encouragement, and suggests one actionable profile improvement.
 
 ### Language Adaptation
 Coach mirrors user's language style:
